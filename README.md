@@ -13,7 +13,9 @@ In short, both of them use Tensorflow, a modified A2C model, Adam optimizer and 
 Memory are cleared every 10 timesteps because I do not want the LSTM model to process with a too long series, and model is only trained(apply_gradients) when the length of the memory is larger than 8 as a kind of keeping only performances with good result.
 
 The traditional one uses 1 Dense layer with 128 units connected to 1 Dense layer with 32 units.
+
 The LSTM one uses 3 LSTM layer with 32, 64, 128 units and 0.2 Dropout respectively, followed by 3 Dense layer with 64, 32, 16 units.
+
 The LSTM model has much more layers as to hold the stability. This may not be rigorous enough but I tried to keep other parts same as possible as I can and below you will find the result which should not have too much influences on the number of layers.
 
 ## Result
