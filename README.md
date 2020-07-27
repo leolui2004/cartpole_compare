@@ -1,5 +1,5 @@
 # Compare between Dense and LSTM using CartPole
-My sixth project on github. Compare efficiency and effectiveness between simple Dense layer and LSTM layer using Cart Pole
+My sixth project on github. Comparing efficiency and effectiveness between simple Dense layer and LSTM layer using Cart Pole
 
 Feel free to provide comments, I just started learning Python for 3 monnths and I am now concentrating on data anylysis and web presentation.
 
